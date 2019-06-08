@@ -15,8 +15,12 @@
 }
 .logo{
     padding-top: 10%;
-    padding-left: 50%;
+    padding-left: 45%;
     padding-right: 50%;
-    padding-bottom: 80%;
+    padding-bottom: 80%; 
+}
+.title{
+    color: white;
+    text-align: center;
     
 }
