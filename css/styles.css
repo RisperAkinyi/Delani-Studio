@@ -44,3 +44,18 @@
     color: white;
     text-transform: uppercase;    
 }
+.contact{
+    background-image: url("../images/backgrounds/c_image.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 170px;
+    color: white;
+    text-transform: uppercase;  
+
+}
