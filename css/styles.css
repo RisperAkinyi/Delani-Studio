@@ -9,9 +9,11 @@
     background-image: url("../images/backgrounds/h_img.jpg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     height: 700px;
     width: 100%;
     overflow: hidden;
+    display: flex;
 }
 .logo{
     padding-top: 10%;
@@ -19,8 +21,20 @@
     padding-right: 50%;
     padding-bottom: 80%; 
 }
-.title{
+
+.title1{
     color: white;
+    font-size: 500px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.about-us{
+    display: flex;
+    justify-content: center;
     text-align: center;
-    
+    padding-top: 20px;
 }
