@@ -59,3 +59,29 @@
     text-transform: uppercase;  
 
 }
+form{
+    display: flex;
+    justify-content: center;
+}
+.form-control::placeholder { 
+    color: white;
+}
+.input{
+    width:350px;
+    height:30px;
+    margin-bottom: 20px;
+    border: solid #FEFEFC 1px;
+    color: #FEFEFC;
+    background: none !important; 
+}
+
+textarea{
+    width: 600px;
+    border: solid #FEFEFC 1px;
+    background: none !important;
+    margin-bottom: 20px;
+    color: #FEFEFC;
+}
+textarea::placeholder{
+    color: #FEFEFC;
+}
