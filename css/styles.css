@@ -148,3 +148,56 @@ textarea{
     margin-left: 50%;
     padding-top: 5%;
 }
+
+@media screen and (max-width:450px){
+    .name, .email{
+        margin: 0;
+    }
+    .logo, .title1, .title2, .title3, .mouse{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 5%;
+        text-align: center;
+    }
+    .mouse, .logo{
+        padding-top: 30%;
+    }
+    *{
+        overflow-x: hidden;
+    }
+    .icons{
+        margin: 0;
+    }
+    .footer{
+        margin-left: 30%;
+    }
+
+
+}
+@media screen and (max-width:1024px){
+    .name, .email{
+       margin: 0; 
+    }
+    .logo, .title1, .title2, .title3, .mouse{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 5%;
+        text-align: center;
+    }
+    .mouse, .logo{
+        padding-top: 30%;
+    }
+    *{
+        overflow-x: hidden;
+    }
+    .icons{
+        margin: 0;
+    }
+    .footer{
+        margin-left: 30%;
+    }
+
+
+}
+
+
