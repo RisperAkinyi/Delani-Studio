@@ -54,11 +54,6 @@
    
 }
 
-
-
-
-
-
 /********************************************** SERVICES SECTION ******************************************/
 /*******************************************************************************************************/
 .service{
@@ -67,14 +62,14 @@
     background-size: cover;
     height: 350px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
     overflow: hidden;
-    padding-top: 170px;
     color: white;
-    text-transform: uppercase;    
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10%        
 }
+
 
 
 
