@@ -89,7 +89,10 @@
 
 /********************************************** PORTFOLIO SECTION ******************************************/
 /*******************************************************************************************************/
-
+.title6{
+    text-align: center;
+    padding-top: 7%;
+}
 
 /********************************************** CONTACT SECTION ******************************************/
 /*******************************************************************************************************/
@@ -99,48 +102,28 @@
     background-size: cover;
     height: 350px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
     overflow: hidden;
-    padding-top: 170px;
     color: white;
-    text-transform: uppercase;  
+    text-align: center; 
+}
+.form-cont input{
+    background: none;
+    
+    margin-left: 400px;
 
 }
-
-form{
-    display: flex;
-    justify-content: center;
+.form-cont textarea{
+    background: none;
 }
-.form-control::placeholder { 
-    color: white;
-}
-.input{
-    width:350px;
-    height:30px;
-    margin-bottom: 20px;
-    border: solid #FEFEFC 1px;
-    color: #FEFEFC;
-    background: none !important; 
-}
-
-textarea{
-    width: 600px;
-    border: solid #FEFEFC 1px;
-    background: none !important;
-    margin-bottom: 20px;
-    color: #FEFEFC;
-}
-textarea::placeholder{
-    color: #FEFEFC;
-}
-
-
 
 /********************************************** SOCIAL ICON SECTION ******************************************/
 /*******************************************************************************************************/
-
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    padding-top: 5%;
+}
 
 
 /********************************************** FOOTER SECTION ******************************************/
