@@ -106,25 +106,21 @@
     color: white;
     text-align: center; 
 }
-.form-cont input{
-    background: none;
-    
-    margin-left: 400px;
-
-}
-.form-cont textarea{
-    background: none;
-}
 
 /********************************************** SOCIAL ICON SECTION ******************************************/
 /*******************************************************************************************************/
 .icons{
     display: flex;
     justify-content: center;
-    margin-left: 30%;
+    margin-left: 35%;
     padding-top: 5%;
 }
 
 
 /********************************************** FOOTER SECTION ******************************************/
 /*******************************************************************************************************/
+.footer{
+    text-align: center;
+    margin-left: 50%;
+    padding-top: 5%;
+}
