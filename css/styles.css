@@ -15,6 +15,37 @@
     overflow: hidden;
     color: white;    
 }
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 12%;
+}
+.title1{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+.title2{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+.title3{
+    display: flex;
+    justify-content: center;
+}
+.mouse{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+
+
+
+
+
+
 /********************************************** ABOUT US SECTION ******************************************/
 /*******************************************************************************************************/
 .about{
