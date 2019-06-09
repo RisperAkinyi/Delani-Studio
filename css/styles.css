@@ -2,6 +2,7 @@
 /*******************************************************************************************************/
 *{
     margin: 0;
+    overflow-x:hidden;
 }
 /********************************************** WELCOME SECTION ******************************************/
 /*******************************************************************************************************/
@@ -100,13 +101,36 @@
     background-image: url("../images/backgrounds/c_image.jpg");
     background-position: center;
     background-size: cover;
-    height: 350px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
-    color: white;
     text-align: center; 
 }
+.title7{
+    padding-top: 3%;
+    color: white;
+    padding-bottom: 2%;
+}
 
+.name{
+    margin-left: 31%;
+}
+.email{
+    margin-right: 31%;
+}
+.col input{
+    background: none;
+}
+textarea{
+    background: none;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+.form-control::placeholder{
+    color: white;
+}
 /********************************************** SOCIAL ICON SECTION ******************************************/
 /*******************************************************************************************************/
 .icons{
