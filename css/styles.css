@@ -7,23 +7,6 @@
 /********************************************** WELCOME SECTION ******************************************/
 /*******************************************************************************************************/
 
-.card:hover .parag1,
-.card:focus .parag1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-    color: white;
-}
-
-.parag1 {
-    display: none;
-}
-
 .bg{
     background-image: url("../images/backgrounds/h_img.jpg");
     background-position: center;
@@ -68,8 +51,7 @@
 }
 .title4{
     padding-top: 5%;
-    padding-bottom: 2%;
-   
+    padding-bottom: 2%;   
 }
 
 /********************************************** SERVICES SECTION ******************************************/
@@ -112,12 +94,22 @@
     padding-top: 7%;
 }
 
-.parag1{
+.text-block{
     display: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    width: 50%;
+    color: white;
+    border: 4px solid white;
 }
 .card-deck{
     padding-bottom: 5%;
 }
+
+
 
 
 /********************************************** CONTACT SECTION ******************************************/
