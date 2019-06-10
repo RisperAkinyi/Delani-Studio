@@ -26,12 +26,9 @@ $(document).ready(function(){
         $("#pm").show();        
     });
 
-    $(".card").hover(function () {
-        $(this).children(".parag1").fadeToggle().css({
-            "opacity":".5"
-            "text-align":"center"
-            "
-        });
-      });
+    $("#button").click(function(){
+        alert("Your message has been received...");
+    });
 
+    
 });
