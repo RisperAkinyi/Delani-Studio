@@ -82,7 +82,7 @@
 .col-md-4{
     text-align: center;
 }
-#info{
+#info, #info1, #info2{
     display: none;
 }
 
@@ -93,6 +93,13 @@
 .title6{
     text-align: center;
     padding-top: 7%;
+}
+
+.parag1{
+    display: none;
+}
+.card-deck{
+    padding-bottom: 5%;
 }
 
 /********************************************** CONTACT SECTION ******************************************/
